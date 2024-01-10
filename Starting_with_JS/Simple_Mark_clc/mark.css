@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.table {
+    margin: auto;
+    margin-top: 15px;
+}
+.bg_color {
+    background-color: rgb(241, 180, 26);
+    text-align: center;
+    font-size: large;
+
+}
+.td_text {
+    color: chocolate;
+}
+.btn {
+    display: block;
+    background-color: green;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+.btn:hover {
+    background-color: aquamarine;
+}
+.top_text, .bot_text {
+    border:none;
+    border-bottom:  1px solid rgb(78, 180, 205);
+}

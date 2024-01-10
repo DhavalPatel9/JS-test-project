@@ -1,0 +1,25 @@
+
+.main, .lgn, .lgn2, .select {
+    /* margin: auto; */
+    border:1px solid ;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    
+
+}
+
+.main {
+    margin: auto;
+    height: 400px;
+    width: 650px;
+}
+
+.lgn, .lgn2 {
+    height: 300px;
+    width: 200px;
+}
+.select {
+    height: 300px;
+    width: 80px;
+}

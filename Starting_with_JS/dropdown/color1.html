@@ -1,0 +1,26 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <select id="drop1" onchange="myColor()">
+            <option>--select--</option>
+            <option>yellow</option>
+            <option> blue</option>
+            <option>green</option>
+            <option>red</option>
+        </select>
+
+    </body>
+
+    <script>
+    function myColor()
+    {
+        document.body.style.backgroundColor=drop1.value;
+    }
+
+ 
+ </script>
+</html>

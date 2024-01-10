@@ -1,0 +1,39 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.main {
+    border: 2px solid yellow;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    line-height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+.btn_m {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: center;
+}
+.btn 
+{
+    padding: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+    font-size: medium;
+    border: 0px;
+    border-radius: 10px;
+    
+
+}
+.btn:hover {
+    background-color: rgb(39, 134, 103);
+}
+
+input {
+    width:  300px;
+    height: 25px;
+    padding: 10px;
+}

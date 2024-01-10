@@ -1,0 +1,78 @@
+.main{
+    height: 500px;
+    width: 450px;
+    border: 4px solid color-mix(in srgb-linear, red 40%, green 30%);
+    margin: auto;
+    padding-left: 50px;
+    font-size: xx-large;
+    font-weight: 800;
+    border-radius: 10px;
+} 
+.main:hover {
+    border: 4px solid red;
+}
+h3 {
+    color: chocolate;
+}
+input {
+    width: 30px;
+    height: 30px;
+    color: antiquewhite;
+    cursor: pointer;
+    
+}
+input:hover {
+    background-color:rgb(13, 244, 63) ;
+   
+  transform: rotate(350deg);
+
+}
+label {
+    color: rgb(0, 184, 123);
+}
+button{
+    width: 100px;
+    height: 40px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: width 3s, height 3s, transform 4s;   
+    cursor: pointer;
+}
+button:hover {
+    background-color:rgb(13, 244, 63) ;
+    border: 0;
+    width: 80px;
+  height: 50px;
+  border-radius: 40px;
+  transform: rotate(355deg);
+  transition: width 3s, height 3s, transform 4s;   
+  
+  
+}
+
+.clr{
+    width: 70px;
+    height: 40px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 10px;
+    /* transition: width 3s, height 3s, transform 3s;    */
+    cursor: pointer;
+}
+.clr:hover  {
+    background-color:rgb(247, 88, 8) ;
+    border: 0;
+    width: 70px;
+  height: 50px;
+  border-radius: 40px;
+  transform: none;
+  zoom: 1.2;
+  /* transition: width 3s, height 3s, transform 4s;     */
+}

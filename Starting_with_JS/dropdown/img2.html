@@ -1,0 +1,28 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <select>
+            <option>--select--</option>
+            <option value="url(../dropdown/img1.jpeg)">yellow</option>
+            <option value="url(img2.jpeg)"> blue</option>
+            <option value="url(img3.jpeg)">green</option>
+            <option value="url(img4.jpeg)">red</option>
+
+        </select>
+        <div id="drop1" onchange="myColor()" value="drop1"
+            style="height: 200px; width: 200px; border: 2px solid;"></div>
+    </body>
+
+    <script>
+    function myColor()
+    {
+        document.body.style.backgroundImage=drop1.value;
+    }
+
+ 
+ </script>
+</html>

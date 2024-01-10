@@ -1,0 +1,33 @@
+.main {
+    margin: auto;
+    height: 700px;
+    width: 500px;
+    border: 3px solid green;
+    padding: 6px;
+    font-size: larger;
+background-color: aqua;
+    
+}
+.title {
+    background-color: blueviolet;
+    color: white;
+}
+.que1 {
+    background-color: rgb(220, 86, 207);
+    color :white;
+}
+.que2 {
+    background-color: rgb(17, 222, 38);
+    color :white;
+}
+button {
+    margin-top: 10px;
+    background-color:burlywood ;
+    font-size: larger;
+    color:white;
+    cursor: pointer;
+    
+}
+input{
+    cursor: pointer;
+}
