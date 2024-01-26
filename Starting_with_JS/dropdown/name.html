@@ -1,0 +1,21 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <p>Enter Name <input type="text" id="txt1"></p>
+        <p>Enter Surname <input type="text" id="txt2"></p>
+        <button onclick="fun1" style="height: 30px; width: 60px;">
+            Submit</button>
+        <p id="lbl1"></p>
+
+    </body>
+    <script>
+        function fun1(){
+     lbl1.innerHTML= "<span style='color:blue'>"+txt1.value +"</span> "+ "<span style='color:green'>"+txt2.value +"</span> ";
+        // lbl1.style.color="green";
+        }
+</script>
+</html>
